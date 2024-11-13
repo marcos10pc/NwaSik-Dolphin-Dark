@@ -1,5 +1,5 @@
 <# Visual #>
-$Host.UI.RawUI.WindowTitle = "💀💻 | NwaSik"
+$Host.UI.RawUI.WindowTitle = "💀💻 | GET REKT BOZO"
 $softwareVer = "1.2"
 Write-Output "
  ________  ________  ___       ________  ___  ___  ___  ________           ________  ________  ________  ___  __       
@@ -13,8 +13,8 @@ Write-Output "
                                                                                                                        
                                          Dolphin Dark lhe deu a verdade. Faça o que quiser.
   
-⠀⠀⠀   NwaSik SoftWare
-⠀   @bruno.nwask
+⠀⠀⠀ TROLLING SERVICES INCORPORATED 
+⠀   lololololil
 "
 <# Features #>
 $features = @{
